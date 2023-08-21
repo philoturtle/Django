@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+{% if greeting == 1 %}
+  <h1>Hello</h1>
+{% endif %}
+
+<ul>
+{% for x in mymembers %}
+<li>{{ x.firstname }}</li>
+{% endfor %}
+<ul>
+
+</body>
+</html>
